@@ -1,0 +1,48 @@
+If else statements
+    if condition:
+        do this
+    else:
+        do this
+
+Remember the indentation
+
+2. Comparison operators:
+    > Greater than
+    < Less than
+    >= Greater than or equal to
+    <= Less than or equal to
+    == Equal to
+    != not equal to
+
+Remember : one = is assignment
+           two == is comparison. Checking that left is equal to right
+
+3. Modulo operator
+%
+10 % 5 -> it calculates what the remainder is after the division . This example there is no remainder
+10 % 3 -> remainder will be 1. As 3 into 10, 3 times with 1 remaining
+
+4. Nested If, elif
+    if condition:
+        if another condition:
+            do this
+        else:
+            do this
+    else:
+        do this
+Note: so the interpreter will first look at the outermost if condition, then if that is True, then it will look at the
+      inner statement
+
+5. To check multiple conditions if true :
+
+if condition1:
+    do A
+if condition2:
+    do B
+if condition3:
+    do c
+
+6. Logical operators
+    and (both conditions need to be true)
+    or  (either one of the conditions need to be true)
+    not (only works if condition being checked is not) (reverses the condition)
